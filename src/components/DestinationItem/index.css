@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.list-style {
+  list-style-type: none;
+  margin: 20px;
+}
+
+.img-style {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.paragraph-style {
+  font-style: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+}

@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+}
+@media screen and (max-width: 768px) {
+  .user-list-container {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}
+.heading-style {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 700;
+  color: #000000;
+}
+.input-style {
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 12px;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 400;
+  color: #0f172a;
+  outline: none;
+}
